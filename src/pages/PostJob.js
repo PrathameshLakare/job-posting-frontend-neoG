@@ -57,6 +57,7 @@ const PostJob = () => {
           id="jobTitle"
           className="form-control mb-2 "
           required
+          value={jobTitle}
           onChange={(e) => setJobTitle(e.target.value)}
         />
 
@@ -68,6 +69,7 @@ const PostJob = () => {
           id="companyName"
           className="form-control mb-2"
           required
+          value={companyName}
           onChange={(e) => setCompanyName(e.target.value)}
         />
 
@@ -79,6 +81,7 @@ const PostJob = () => {
           id="location"
           className="form-control mb-2"
           required
+          value={location}
           onChange={(e) => setLocation(e.target.value)}
         />
 
@@ -90,6 +93,7 @@ const PostJob = () => {
           id="salary"
           className="form-control mb-2"
           required
+          value={salary}
           onChange={(e) => setSalary(e.target.value)}
         />
 
@@ -99,6 +103,7 @@ const PostJob = () => {
         <select
           id="jobType"
           className="form-select mb-2"
+          value={jobType}
           onChange={(e) => setJobType(e.target.value)}
         >
           <option value="">Select Job Type</option>
@@ -116,6 +121,7 @@ const PostJob = () => {
           id="jobDescription"
           className="form-control mb-2"
           required
+          value={jobDescription}
           onChange={(e) => setJobDescription(e.target.value)}
         />
 
@@ -126,6 +132,7 @@ const PostJob = () => {
           id="jobQualifications"
           className="form-control mb-2"
           required
+          value={qualifications}
           onChange={(e) => setQualifications(e.target.value)}
         />
 
